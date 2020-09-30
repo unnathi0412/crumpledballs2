@@ -34,9 +34,10 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background("white");
-  dustbin.display();
-  ground1.display();
   paper.display();
+  ground1.display();
+ dustbin.display();
+
  
 }
 
